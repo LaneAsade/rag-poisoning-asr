@@ -1,0 +1,17 @@
+# Runtime dependencies for the experiments (lower bounds, not pins).
+# The Ollama server (https://ollama.com) is installed separately and is not a pip package.
+# The upstream TrustworthyRAG repository is cloned separately: see scripts/setup_upstream.sh
+torch>=2.0
+transformers>=4.40
+sentence-transformers>=2.7
+faiss-cpu>=1.7.4
+datasets>=2.18
+numpy>=1.24
+pandas>=2.0
+requests>=2.31
+pyyaml>=6.0
+loguru>=0.7
+python-dotenv>=1.0
+tqdm>=4.66
+accelerate>=0.30
+matplotlib>=3.7
